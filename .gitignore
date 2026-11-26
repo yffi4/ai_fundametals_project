@@ -1,0 +1,25 @@
+# Local IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated datasets and predictions (see project_25.ipynb)
+/data/
+
+# Local credentials
+.env
+.env.*
+!.env.example
